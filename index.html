@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <title>Cooperativa Mujeres Unidas</title>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg px-4">
+            <h2>Cooperativa <strong style="color: var(--mainPink);">Mujeres Unidas</strong></h2>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                <span class="toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav text-capitalize mx-auto">
+                    <li class="nav-item active">
+                        <a href="#header" class="nav-link">Bienvenida</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#about" class="nav-link">Acerca de...</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#store" class="nav-link">Tienda</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#services" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#cakes" class="nav-link">Especiales</a>
+                    </li>
+                </ul>
+                <div class="nav-info-items d-none d-lg-flex">
+                    <!--                    Single info-->
+                    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                        <span class="info-icon mx-lg-3">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <p class="mb-0">+ 123 456 789</p>
+                    </div>
+                    <!--                    Single info-->
+                </div>
+            </div>
+        </nav>
+        <!--        End of navbar-->
+
+
+        <!--        Banner-->
+        <div class="container-fluid">
+            <div class="row max-height justify-content-center align-items-center">
+                <div class="col-10 mx-auto text-center">
+                    <h1 class="banner">
+                        Bienvenidx a <strong class="banner-title"><br>nuestra tienda</strong>
+                    </h1>
+                </div>
+
+
+            </div>
+        </div>
+        <!--        End of banner-->
+    </header>
+    <!--    End of header-->
+
+    <!--    About-->
+    <section class="about py-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto col-md-6 my-5">
+                    <h1 class="text-capitalize">
+                        Acerca de <br><strong class="banner-title">Nosotras</strong>
+                    </h1>
+                    <p class="my-4 text-muted w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit culpa, facere pariatur voluptate quidem rerum dolorum soluta eveniet ab esse vitae aut, nostrum repellendus minus.</p>
+                </div>
+                <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+                    <div class="about-img__container">
+                        <img src="img/sweets-1.jpeg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    End of about-->
+
+    <!--    Store section-->
+    <section id="store" class="store py-5">
+        <div class="container">
+            <!--            Section title-->
+            <div class="row-10 mx-auto col-sm-6 text-center">
+                <h1 class="text-capitalize">
+                    Nuestra <strong class="banner-title">Tienda</strong>
+                </h1>
+            </div>
+            <!--            End of section title-->
+
+            <!--    Store items-->
+            <div class="row store-items" id="store-items">
+                <!--        Single item-->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="img/cake-1.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">Costo</h5>
+                                <h5 class="store-item-value rosa">
+                                    $ <strong id="store-item-price" class="font-weight-bold">5</strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--        End of single item-->
+                <!--        Single item-->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="img/cake-2.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">Costo</h5>
+                                <h5 class="store-item-value rosa">
+                                    $ <strong id="store-item-price" class="font-weight-bold">5</strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--        End of single item-->
+                <!--        Single item-->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="img/cake-3.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">Costo</h5>
+                                <h5 class="store-item-value rosa">
+                                    $ <strong id="store-item-price" class="font-weight-bold">5</strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--        End of single item-->
+
+                <!--        Single item-->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="img/sweets-3.jpeg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">Costo</h5>
+                                <h5 class="store-item-value rosa">
+                                    $ <strong id="store-item-price" class="font-weight-bold">5</strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--        End of single item-->
+            </div>
+            <!--    End of store items-->
+        </div>
+    </section>
+    <!--    End of store section-->
+
+    <!--    Services-->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <div class="row">
+                <!--                Single service-->
+                <div class="col-md-4 text-center my-3">
+                    <img src="img/bread-icon.png" alt="">
+                    <h6 class="text-uppercase my-3 service-title">Pan</h6>
+                    <p class="w-75 mx-auto text-left service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur praesentium, illum optio! Nihil nam ipsum asperiores aliquam tenetur perferendis, ad!</p>
+                </div>
+                <!--                End of single service-->
+                <!--                Single service-->
+                <div class="col-md-4 text-center my-3">
+                    <img src="img/cupcake-icon.png" alt="">
+                    <h6 class="text-uppercase my-3 service-title">Cupcake</h6>
+                    <p class="w-75 mx-auto text-left service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur praesentium, illum optio! Nihil nam ipsum asperiores aliquam tenetur perferendis, ad!</p>
+                </div>
+                <!--                End of single service-->
+                <!--                Single service-->
+                <div class="col-md-4 text-center my-3">
+                    <img src="img/candy-icon.png" alt="">
+                    <h6 class="text-uppercase my-3 service-title">Dulce</h6>
+                    <p class="w-75 mx-auto text-left service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur praesentium, illum optio! Nihil nam ipsum asperiores aliquam tenetur perferendis, ad!</p>
+                </div>
+                <!--                End of single service-->
+            </div>
+        </div>
+    </section>
+    <!--    End of services-->
+
+
+    <!--    Cakes-->
+    <section id="cakes" class="cakes py-5">
+        <div class="container">
+            <!--            Section title-->
+            <div class="row-10 mx-auto col-sm-6 text-center">
+                <h1 class="text-capitalize">
+                    Nuestros <br><strong class="banner-title">Pasteles</strong>
+                </h1>
+            </div>
+            <!--            End of section title-->
+            <div class="row">
+                <!--                Single cake-->
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-capitalize text-center">
+                    <h3 class="py-3">Pastel de cumpleaños</h3>
+                    <div class="text-muted">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+                        <img src="img/trans-cake.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!--                End of single cake-->
+
+                <!--                Single cake-->
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-capitalize text-center">
+                    <h3 class="py-3">Pastel sencillo</h3>
+                    <div class="text-muted">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+                        <img src="img/trans-custom.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!--                End of single cake-->
+
+                <!--                Single cake-->
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-capitalize text-center">
+                    <h3 class="py-3">Pastel de bodas</h3>
+                    <div class="text-muted">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+                        <img src="img/trans-wedding.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!--                End of single cake-->
+            </div>
+        </div>
+    </section>
+    <!--    End of cakes-->
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.4993129242257!2d-99.20688068522156!3d19.477142344302138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20289d9729aa1%3A0x55b7b9830c9124d3!2sCalle%20Camino%20a%20Nextengo%20391%2C%20San%20Miguel%20Amantla%2C%20Azcapotzalco%2C%2002700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1602719200955!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6 footer-contact text-center text-capitalize p-5">
+                    <h3 class="mb-5">Encuéntranos en :</h3>
+                    <p class="d-flex flex-wrap">
+                        <span class="mr-4 footer-icon">
+                            <i class="fas fa-map"></i>
+                        </span>
+                        <span>
+                            Calle Nextengo #895 Col. San Miguel Amantla, Azcapotzalco
+                        </span>
+                    </p>
+                    <p class="d-flex flex-wrap">
+                        <span class="mr-4 footer-icon">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <span>
+                            123 456 789
+                        </span>
+                    </p>
+                    <p class="d-flex flex-wrap">
+                        <span class="mr-4 footer-icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            email@gegge.com
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
